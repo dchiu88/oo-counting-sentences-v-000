@@ -5,6 +5,9 @@ class String
   def sentence?(str)
     if str[-1] == "."
       return true
+    else 
+      return false
+    end
   end
 
   def question?
